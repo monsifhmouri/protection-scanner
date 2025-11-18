@@ -1,16 +1,16 @@
-# 🔒 Protection Scanner
+#  Protection Scanner
 
 Advanced website protection scanning tool that automatically crawls and analyzes all types of security protections on websites.
 
-## ✨ Features
+##  Features
 
-- 🔍 **WAF Detection** - Cloudflare, Imperva, Akamai, Sucuri, Fortinet, F5
-- 🌐 **CDN Detection** - Cloudflare, Akamai, Fastly, CloudFront, MaxCDN
-- 🛡️ **Security Headers Analysis** - X-Frame-Options, CSP, HSTS, etc.
-- 🤖 **Bot Protection Detection** - reCAPTCHA, hCaptcha, DataDome, Distil
-- 🚀 **Auto Crawling** - Automatically discovers and scans all site pages
-- 📊 **Detailed Reports** - JSON reports with comprehensive findings
-- ⚡ **Async Performance** - Fast scanning using asynchronous requests
+-  **WAF Detection** - Cloudflare, Imperva, Akamai, Sucuri, Fortinet, F5
+-  **CDN Detection** - Cloudflare, Akamai, Fastly, CloudFront, MaxCDN
+-  **Security Headers Analysis** - X-Frame-Options, CSP, HSTS, etc.
+-  **Bot Protection Detection** - reCAPTCHA, hCaptcha, DataDome, Distil
+-  **Auto Crawling** - Automatically discovers and scans all site pages
+-  **Detailed Reports** - JSON reports with comprehensive findings
+-  **Async Performance** - Fast scanning using asynchronous requests
 
 ## 📦 Installation
 
