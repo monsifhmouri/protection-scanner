@@ -61,7 +61,7 @@ class ProtectionScanner:
     
     async def create_session(self):
         timeout = aiohttp.ClientTimeout(total=self.timeout)
-        connector = aiohttp.TCPConnector(limit=10, verify_ssl=False)
+        connector = aiohttp.TCPConnector(limit=10, ssl=False)
         self.session = aiohttp.ClientSession(timeout=timeout, connector=connector)
     
     async def close_session(self):
