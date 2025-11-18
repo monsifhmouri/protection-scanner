@@ -1,0 +1,49 @@
+{
+  "scan_date": "2024-11-18T04:23:15.123456",
+  "target_url": "https://example.com",
+  "pages_scanned": 42,
+  "results": {
+    "https://example.com": {
+      "waf": ["cloudflare"],
+      "cdn": ["cloudflare"],
+      "security_headers": {
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000",
+        "content-security-policy": "default-src 'self'",
+        "referrer-policy": "strict-origin-when-cross-origin"
+      },
+      "server": "nginx",
+      "powered_by": "PHP/8.1",
+      "ssl_info": {
+        "ssl_version": "TLSv1.3",
+        "issuer": {
+          "organizationName": "CloudFlare, Inc.",
+          "commonName": "CloudFlare Inc ECC CA-3"
+        },
+        "subject": {
+          "commonName": "sni.cloudflaressl.com",
+          "organizationName": "CloudFlare, Inc."
+        },
+        "expires": "Jan 15 23:59:59 2025 GMT"
+      },
+      "bot_protection": ["recaptcha"]
+    },
+    "https://example.com/about": {
+      "waf": ["cloudflare"],
+      "cdn": ["cloudflare"],
+      "security_headers": {
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000",
+        "content-security-policy": "Not found",
+        "referrer-policy": "strict-origin-when-cross-origin"
+      },
+      "server": "nginx",
+      "powered_by": "PHP/8.1",
+      "bot_protection": []
+    }
+  }
+}
